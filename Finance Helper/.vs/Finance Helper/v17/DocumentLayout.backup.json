@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\muril\\OneDrive\\Documentos\\SI\\Lab de Prog\\Finance Helper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{07A9E001-A26E-48D0-9FC0-EDD6A5EDB79E}|Finance Helper\\Finance Helper.csproj|c:\\users\\muril\\onedrive\\documentos\\si\\lab de prog\\finance helper\\finance helper\\service\\usuarioservice\\usuariologindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07A9E001-A26E-48D0-9FC0-EDD6A5EDB79E}|Finance Helper\\Finance Helper.csproj|solutionrelative:finance helper\\service\\usuarioservice\\usuariologindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{07A9E001-A26E-48D0-9FC0-EDD6A5EDB79E}|Finance Helper\\Finance Helper.csproj|c:\\users\\muril\\onedrive\\documentos\\si\\lab de prog\\finance helper\\finance helper\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07A9E001-A26E-48D0-9FC0-EDD6A5EDB79E}|Finance Helper\\Finance Helper.csproj|solutionrelative:finance helper\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A9E001-A26E-48D0-9FC0-EDD6A5EDB79E}|Finance Helper\\Finance Helper.csproj|c:\\users\\muril\\onedrive\\documentos\\si\\lab de prog\\finance helper\\finance helper\\service\\usuarioservice\\usuariologindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07A9E001-A26E-48D0-9FC0-EDD6A5EDB79E}|Finance Helper\\Finance Helper.csproj|solutionrelative:finance helper\\service\\usuarioservice\\usuariologindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07A9E001-A26E-48D0-9FC0-EDD6A5EDB79E}|Finance Helper\\Finance Helper.csproj|c:\\users\\muril\\onedrive\\documentos\\si\\lab de prog\\finance helper\\finance helper\\service\\usuarioservice\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\muril\\OneDrive\\Documentos\\SI\\Lab de Prog\\Finance Helper\\Finance Helper\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "Finance Helper\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\muril\\OneDrive\\Documentos\\SI\\Lab de Prog\\Finance Helper\\Finance Helper\\Controllers\\UsuarioController.cs*",
-              "RelativeToolTip": "Finance Helper\\Controllers\\UsuarioController.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAABdAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\muril\\OneDrive\\Documentos\\SI\\Lab de Prog\\Finance Helper\\Finance Helper\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Finance Helper\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAD4vxsAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T14:13:34.406Z",
               "IsPinned": true,
@@ -72,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UsuarioLoginDTO.cs",
               "DocumentMoniker": "C:\\Users\\muril\\OneDrive\\Documentos\\SI\\Lab de Prog\\Finance Helper\\Finance Helper\\Service\\UsuarioService\\UsuarioLoginDTO.cs",
               "RelativeDocumentMoniker": "Finance Helper\\Service\\UsuarioService\\UsuarioLoginDTO.cs",

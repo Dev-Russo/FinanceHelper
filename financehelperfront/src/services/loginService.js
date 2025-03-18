@@ -1,7 +1,5 @@
 import axios from "axios";
 
-const API_URL = "https://localhost:7219/api/Usuario/login";
-
 export const login = async (username, password) => {
     try {
       const response = await fetch("https://localhost:7219/api/Usuario/login", {
