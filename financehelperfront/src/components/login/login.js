@@ -4,9 +4,43 @@ import { FaFacebookF, FaGoogle, FaTwitter, FaGithub } from "react-icons/fa";
 import "bootstrap/dist/css/bootstrap.min.css";
 import logo from "../../assets/images/logo1.png"
 import "./login.css"
+import { login } from "../../services/loginService";
 
 const Login = () => {
   const [key, setKey] = useState("login");
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
+  const [username, setUsername] = useState("");
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+  
+    if (!username || !password) {
+      setError("Preencha todos os campos!");
+      return;
+    }
+  
+    try {
+      const response = await login(username, password);
+  
+      if (!response) {
+        throw new Error("Nenhuma resposta do servidor");
+      }
+  
+      console.log("Resposta do login:", response);
+  
+      if (response.token) {
+        localStorage.setItem("token", response.token);
+        console.log("Login bem-sucedido! Redirecionando...");
+        // Redirecione o usuário para outra página se necessário
+      } else {
+        setError("Usuário ou senha inválidos!");
+      }
+    } catch (err) {
+      console.error("Erro ao tentar fazer login:", err);
+      setError(err.message || "Falha no login");
+    }
+  };
 
   return (
     <Container className="d-flex justify-content-center align-items-center vh-100">
@@ -24,7 +58,7 @@ const Login = () => {
 
           <Tab.Content>
             <Tab.Pane eventKey="login">
-              <Form>
+              <Form onSubmit={handleSubmit}>
                 <div className="text-center mb-3">
                   {[FaFacebookF, FaGoogle, FaTwitter, FaGithub].map((Icon, i) => (
                     <Button variant="link" className="mx-1" key={i}>
@@ -34,11 +68,23 @@ const Login = () => {
                 </div>
                 <Form.Group className="mb-1">
                   <Form.Label>Email</Form.Label>
-                  <Form.Control type="email" placeholder="Enter email" />
+                  <Form.Control 
+                  type="email" 
+                  placeholder="Enter email"
+                  value={username}
+                  onChange = {(e) => setUsername(e.target.value)}
+                  required
+                  />
                 </Form.Group>
                 <Form.Group className="mb-3">
                   <Form.Label>Password</Form.Label>
-                  <Form.Control type="password" placeholder="Enter password" />
+                  <Form.Control 
+                  type="password" 
+                  placeholder="Enter password" 
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  required
+                  />
                 </Form.Group>
                 <div className="d-flex justify-content-between mb-3">
                   <Form.Check label="Remember me" />

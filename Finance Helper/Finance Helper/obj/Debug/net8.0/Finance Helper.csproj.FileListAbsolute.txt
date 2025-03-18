@@ -170,3 +170,6 @@ C:\Users\muril\OneDrive\Documentos\SI\Lab de Prog\Finance Helper\Finance Helper\
 C:\Users\muril\OneDrive\Documentos\SI\Lab de Prog\Finance Helper\Finance Helper\obj\Debug\net8.0\Finance Helper.pdb
 C:\Users\muril\OneDrive\Documentos\SI\Lab de Prog\Finance Helper\Finance Helper\obj\Debug\net8.0\Finance Helper.genruntimeconfig.cache
 C:\Users\muril\OneDrive\Documentos\SI\Lab de Prog\Finance Helper\Finance Helper\obj\Debug\net8.0\ref\Finance Helper.dll
+C:\Users\muril\OneDrive\Documentos\SI\Lab de Prog\Finance Helper\Finance Helper\obj\Debug\net8.0\Finance Helper.sourcelink.json
+C:\Users\muril\OneDrive\Documentos\SI\Lab de Prog\Finance Helper\Finance Helper\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\muril\OneDrive\Documentos\SI\Lab de Prog\Finance Helper\Finance Helper\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
