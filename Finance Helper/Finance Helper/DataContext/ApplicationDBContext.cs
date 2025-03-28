@@ -11,5 +11,6 @@ namespace Finance_Helper.DataContext
 
 
         public DbSet<UsuarioModel> Usuarios { get; set; }
+        public DbSet<RefreshTokenModel> RefreshTokens { get; set; }
     }
 }

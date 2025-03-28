@@ -14,6 +14,8 @@ namespace Finance_Helper.Service.UsuarioService
 
         Task<ServiceResponse<List<UsuarioModel>>> DeleteUsuario(int id);
 
-        Task<ServiceResponse<string>> Login(string email, string password);
+        Task<ServiceResponse<object>> Login(string email, string password);
+
+        Task<ServiceResponse<string>> RefreshToken(string refreshToken);
     }
 }
