@@ -1,9 +1,11 @@
-export const login = async (username, password) => {
+import { MdEmail } from "react-icons/md";
+
+export const login = async (email, password) => {
   try {
     const response = await fetch("https://localhost:7219/api/Usuario/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ username, password }),
+      body: JSON.stringify({ email, password }),
     });
 
     if (!response.ok) {
