@@ -51,8 +51,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T14:13:34.406Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -62,7 +61,7 @@
               "RelativeDocumentMoniker": "Finance Helper\\Service\\UsuarioService\\UsuarioService.cs",
               "ToolTip": "C:\\Users\\muril\\OneDrive\\Documentos\\SI\\Lab de Prog\\Finance Helper\\Finance Helper\\Service\\UsuarioService\\UsuarioService.cs",
               "RelativeToolTip": "Finance Helper\\Service\\UsuarioService\\UsuarioService.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAADwv30AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-17T14:32:47.347Z",
               "IsPinned": true,
@@ -82,6 +81,10 @@
               "IsPinned": true
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "20250315032717_first-migration.Designer.cs",
@@ -91,8 +94,7 @@
               "RelativeToolTip": "Finance Helper\\Migrations\\20250315032717_first-migration.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T16:03:28.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T16:03:28.287Z"
             },
             {
               "$type": "Document",
@@ -104,8 +106,7 @@
               "RelativeToolTip": "Finance Helper\\Migrations\\20250315032717_first-migration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T16:03:26.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T16:03:26.191Z"
             },
             {
               "$type": "Document",
